@@ -1,0 +1,18 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: grc-commandes_web_1
+      APP_PORT: 8080
+
+  web:
+    image: ghcr.io/asand04/grc-commandes:0.1.0
+    user: "1000:1000"
+    restart: on-failure
+    stop_grace_period: 30s
+    environment:
+      GRC_DATA_DIR: /data
+      TZ: Africa/Porto-Novo
+    volumes:
+      - ${APP_DATA_DIR}/data:/data

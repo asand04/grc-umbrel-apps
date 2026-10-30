@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="GR Commandes">
+  <rect width="256" height="256" rx="56" fill="#1746E8"/>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M176 98a54 54 0 1 0 4 62h-40v-26h48v16" stroke="#ffffff" stroke-width="13"/>
+    <path d="M82 196h92M92 182h72M102 168h52" stroke="#00A9D6" stroke-width="7"/>
+  </g>
+</svg>

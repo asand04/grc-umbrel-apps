@@ -1,0 +1,28 @@
+manifestVersion: 1
+id: grc-commandes
+storage:
+  dataRoot: data
+category: finance
+name: GR Commandes
+version: "0.1.0"
+tagline: Commandes, devis, factures et reçus de GR Créations
+icon: https://raw.githubusercontent.com/asand04/grc-umbrel-apps/main/grc-commandes/icon.svg
+description: >-
+  Suivi des commandes d'impression 3D de GR Créations : clients, lignes et totaux en FCFA, acompte et solde,
+  statuts (Nouveau → Devis envoyé → Acompte payé → En production → Livré), devis / factures / reçus en PDF
+  aux couleurs de la marque, photos par commande, catalogue avec prix par défaut, tableau de bord et
+  sauvegardes nocturnes. Interface en français, pensée pour le téléphone.
+releaseNotes: >-
+  Première version.
+developer: GR Créations
+website: https://instagram.com/grcreationsbj
+dependencies: []
+repo: https://github.com/asand04/grc-umbrel-apps
+support: https://github.com/asand04/grc-umbrel-apps/issues
+port: 3987
+gallery: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+submitter: asand04
+submission: https://github.com/asand04/grc-umbrel-apps
