@@ -4,7 +4,7 @@ storage:
   dataRoot: data
 category: finance
 name: GR Commandes
-version: "0.1.1"
+version: "0.1.2"
 tagline: Commandes, devis, factures et reçus de GR Créations
 icon: https://raw.githubusercontent.com/asand04/grc-umbrel-apps/main/grc-commandes/icon.svg
 description: >-
@@ -13,7 +13,9 @@ description: >-
   aux couleurs de la marque, photos par commande, catalogue avec prix par défaut, tableau de bord et
   sauvegardes nocturnes. Interface en français, pensée pour le téléphone.
 releaseNotes: >-
-  0.1.1 : plus d'erreur « Control server » au démarrage (socket de contrôle gunicorn désactivé).
+  0.1.2 : une commande annulée est figée (lignes, paiements, documents, photos) jusqu'à son rétablissement ;
+  les téléchargements (export CSV, sauvegardes) ne sont plus jamais mis en cache par un proxy ou un navigateur.
+  0.1.1 : plus d'erreur « Control server » au démarrage.
   Première version fonctionnelle : commandes, devis, factures, reçus, photos, tableau de bord, sauvegardes.
 developer: GR Créations
 website: https://instagram.com/grcreationsbj
