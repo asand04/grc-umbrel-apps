@@ -7,7 +7,7 @@ services:
       APP_PORT: 8080
 
   web:
-    image: ghcr.io/asand04/grc-commandes:0.1.0
+    image: ghcr.io/asand04/grc-commandes:0.1.0@sha256:54373840602413f1037035294a42498ab7ad9986f35e8f677c097b1b290e47e4
     user: "1000:1000"
     restart: on-failure
     stop_grace_period: 30s
